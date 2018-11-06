@@ -1,0 +1,18 @@
+ls
+mkdir 201606
+exit
+ssh -i ~/.ssh/BECM-KEY1.rsa -ND 8157 hadoop@ec2-54-87-141-124.compute-1.amazonaws.com
+ssh -i ~/.ssh/BECM-KEY1.rsa hadoop@ec2-54-87-141-124.compute-1.amazonaws.com
+jobs
+spark-shell --packages com.databricks:spark-csv_2.11:1.4.0
+exit
+R
+touch .nojekyll
+Rscript -e "rmarkdown::render_site(input='an.boalLoans.Rmd')"
+Rscript -e "rmarkdown::render_site(input='an.paramount.Rmd')"
+exit
+git config status.showUntrackedFiles all
+git remove -v
+git remote -v
+git remove -v
+git remote -v
