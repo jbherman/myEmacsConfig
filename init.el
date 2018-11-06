@@ -1,3 +1,8 @@
+
+;; Set path to load custom emacs packages not managed by package manager (eg ampl-mode.el)
+(setq load-path (cons "~/.emacs.d/packages-misc" load-path))
+
+
 ;; use pdf-tools instea of docView to view pdfs JH added 11/20/17
 ;;(pdf-tools-install)
 

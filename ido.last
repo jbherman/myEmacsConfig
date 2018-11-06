@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/jason/.emacs.d/" . "auto-save-list/")
  ("/ssh:ec2-marley:/data/Dropbox (BlueElephant)/BlueElephant Team Folder/ec2share/dev/portRiskan/" . "src/")
  ("/ssh:ec2-marley:/data/Dropbox (BlueElephant)/BlueElephant Team Folder/ec2share/dev/myCCbesol/src/" . "models/")
  ("/ssh:ec2-marley:/data/Dropbox (BlueElephant)/BlueElephant Team Folder/ec2share/dev/myCCbesol/results/" . "MCV1/")
@@ -346,6 +347,7 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/jason/.emacs.d/"
+ "/Users/jason/.emacs.d/auto-save-list/"
  "/ssh:ec2-marley:/data/Dropbox (BlueElephant)/BlueElephant Team Folder/ec2share/dev/portRiskan/rpt/"
  "/ssh:ec2-marley:/data/Dropbox (BlueElephant)/BlueElephant Team Folder/ec2share/dev/portRiskan/src/"
  "/ssh:ec2-marley:/data/Dropbox (BlueElephant)/BlueElephant Team Folder/ec2share/dev/myCCbesol/rpt/"
@@ -394,11 +396,11 @@
  "/ssh:ec2-marley:/data/Dropbox (BlueElephant)/BlueElephant Team Folder/ec2share/dev/myCC/dat/"
  "/ssh:ec2-marley:/data/Dropbox (BlueElephant)/BlueElephant Team Folder/ec2share/dev/myCC/fits/"
  "/ssh:ec2-marley:/data/Dropbox (BlueElephant)/BlueElephant Team Folder/ec2share/marleyLocalDevTMP/bankruptcy/dat/"
- "/ssh:ec2-marley:/data/Dropbox (BlueElephant)/BlueElephant Team Folder/ec2share/marleyLocalDevTMP/bankruptcy/src/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "ampl-mode.el"
  "init.el"
  "an.npd.harm.R"
  "play.R"
@@ -408,14 +410,15 @@
  "mikeG.request.gradrate.by.ficoband.R"
  "defineMonteStaticPool.R"
  "gen.data.sh"
- "curve.scenarios.R"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/jason/.emacs.d/" (23521 44215 540062 374000) "%backup%~" "elpa/" "recentf" "network-security.data" "bookmarks" "init.el" "auto-save-list/" "ensime/" "recentf~" "tramp" "ido.last~" "abbrev_defs" "eshell/" "ido.last" "ac-comphist.dat" "../" "./")
+ ("/Users/jason/.emacs.d/" (23521 45091 894862 142000) "ampl-mode.el" ".git/" "%backup%~" "elpa/" "recentf" "network-security.data" "bookmarks" "init.el" "auto-save-list/" "ensime/" "recentf~" "tramp" "ido.last~" "abbrev_defs" "eshell/" "ido.last" "ac-comphist.dat" "../" "./")
 
- ("/Users/jason/" (23521 44140 999655 817000) "miniconda3/" "packer" ".conda/" "OldDropbox/" ".starcluster/" ".emacs.old" ".viminfo" ".bash_history" ".juju/" ".python-eggs/" ".gitconfig" ".aws/" ".cache/" ".python_history" "Downloads/" "anaconda3/" ".cfncluster/" ".oh-my-zsh/" ".Xauthority" ".dvdcss/" ".bash_profile" ".m2/" ".vscode/" ".rstudio-desktop/" "Documents/" ".odbcinst.ini" "ip.txt" ".scala_history" ".jupyter/" "Dropbox (BlueElephant)/" "dev/" ".Trash/" ".Rapp.history" ".serverauth.6609" ".gradle/" "updateAwsMifiIP.sh" "Applications/" ".emacs" "Movies/" "Applications (Parallels)/" ".ssh/" ".odbc.ini" ".sh_history" ".spark_history" "ec2-user.cron" ".zcompdump-JasonsMBP-5.3" ".zshenv" ".bash_profile-anaconda3.bak" ".dropbox/" "Public/" ".iterm2/" ".sbt/" "Sites/" ".cups/" ".gitignore_global" "Box Sync/" ".emacs.d/" "mldata2.paramount.RDS" "emacs/" ".coursier/" "Parallels/" "iCloud Drive (Archive)/" ".oracle_jre_usage/" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".iterm2_shell_integration.zsh" ".ipython/" ".sftp_history" ".zsh_history" ".rnd" ".sqsh_readline" "boat/" "Pictures/" ".sqsh_history" ".local/" ".ensime" ".zshrc" ".subversion/" ".QtWebEngineProcess/" ".wget-hsts" ".hgignore_global" ".stCommitMsg" ".Rprofile" ".CFUserTextEncoding" ".tmux.conf" ".zcompdump-JasonsMBP (2)-5.3" ".R/" ".DS_Store" ".emacs-bmk-bmenu-state.el.~1~" "iCloud Drive (Archive) - 1/" ".ivy2/" ".emacs-bmk-bmenu-state.el" "ipnew.txt" ".idea-build/" "Music/" ".config/" ".Tableau/" ".Rhistory" ".packer.d/" "../" "./")
+ ("/Users/jason/" (23521 44924 834799 135000) "miniconda3/" "packer" ".conda/" "OldDropbox/" ".starcluster/" ".emacs.old" ".viminfo" ".bash_history" ".juju/" ".python-eggs/" ".gitconfig" ".aws/" ".cache/" ".python_history" "Downloads/" "anaconda3/" ".cfncluster/" ".oh-my-zsh/" ".Xauthority" ".dvdcss/" ".bash_profile" ".m2/" ".vscode/" ".rstudio-desktop/" "Documents/" ".odbcinst.ini" "ip.txt" ".scala_history" ".jupyter/" ".emacs-bmk-bmenu-state.el.~3~" "Dropbox (BlueElephant)/" "dev/" ".Trash/" ".Rapp.history" ".serverauth.6609" ".gradle/" "updateAwsMifiIP.sh" "Applications/" "Movies/" "Applications (Parallels)/" ".ssh/" ".odbc.ini" ".sh_history" ".spark_history" "ec2-user.cron" ".zcompdump-JasonsMBP-5.3" ".zshenv" ".bash_profile-anaconda3.bak" ".dropbox/" "Public/" ".iterm2/" ".sbt/" "Sites/" ".cups/" ".gitignore_global" "Box Sync/" ".emacs.d/" "mldata2.paramount.RDS" "emacs/" ".coursier/" "Parallels/" "iCloud Drive (Archive)/" ".oracle_jre_usage/" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".iterm2_shell_integration.zsh" ".ipython/" ".sftp_history" ".zsh_history" ".rnd" ".sqsh_readline" "boat/" "Pictures/" ".sqsh_history" ".local/" ".ensime" ".zshrc" ".subversion/" ".QtWebEngineProcess/" ".wget-hsts" ".hgignore_global" ".stCommitMsg" ".Rprofile" ".CFUserTextEncoding" ".emacs-bmk-bmenu-state.el.~2~" ".tmux.conf" ".zcompdump-JasonsMBP (2)-5.3" ".R/" ".DS_Store" ".emacs-bmk-bmenu-state.el.~1~" "iCloud Drive (Archive) - 1/" ".ivy2/" ".emacs-bmk-bmenu-state.el" "ipnew.txt" ".idea-build/" "Music/" ".config/" ".Tableau/" ".Rhistory" ".packer.d/" "../" "./")
+
+ ("/Users/jason/.emacs.d/auto-save-list/" (23521 44883 476598 238000) ".saves-18659-jasonsmbp.fios-router.home~" ".saves-2186-JasonsMBP~" ".saves-1683-JasonsMBP~" ".saves-609-JasonsMBP~" "ampl-mode.el" ".saves-941-JasonsMBP~" ".saves-6565-Jasons-MBP.fios-router.home~" ".saves-84660-JasonsMBP~" ".saves-1749-jasonsmbp.fios-router.home~" ".saves-1029-JasonsMBP~" ".saves-16580-Jasons-MacBook-Pro.local~" ".saves-1428-JasonsMBP~" ".saves-1891-JasonsMBP~" ".saves-1269-JasonsMBP~" ".saves-441-JasonsMBP~" ".saves-852-JasonsMBP~" ".saves-22048-Jasons-MBP.fios-router.home~" ".saves-1570-JasonsMBP~" ".saves-717-JasonsMBP~" ".saves-1123-JasonsMBP~" ".saves-34221-JasonsMBP~" ".saves-331-JasonsMBP~" ".saves-23188-JasonsMBP~" ".saves-2606-JasonsMBP~" ".saves-13830-JasonsMBP~" ".saves-50015-JasonsMBP~" ".saves-721-JasonsMBP~" ".saves-4248-JasonsMBP~" ".saves-4804-jasonsmbp.fios-router.home~" ".saves-44731-JasonsMBP~" ".saves-665-JasonsMBP~" ".saves-5830-jasonsmbp.fios-router.home~" ".saves-1022-JasonsMBP~" ".saves-9181-JasonsMBP~" "../" "./")
 
  ("/Users/jason/Desktop/" (23511 4330 768545 794000) "d30b9e13-a014-4066-be9b-383e9aea6ad7.png" "7ec77ed4-5332-492c-a70c-13cd6a83dbe1.png" "Screen Shot 2018-09-17 at 10.00.39 AM.png" "21889eba-d22f-4747-8102-ef4e9e4b09ae.png" "Screen Shot 2018-04-26 at 16.23.11.png" "Screen Shot 2018-09-28 at 5.39.46 PM.png" "tmp/" "Testimonials | Tuition Options.pdf" "Screen Shot 2018-09-19 at 1.05.40 PM.png" "Screen Shot 2018-09-05 at 5.37.32 PM.png" "f4d31717-f7dc-4847-af05-4fd31e3bbc98.png" "deleteme/" "desktop.ini" "Screen Shot 2018-04-26 at 16.21.12.png" "VISTA/" "Screen Shot 2018-08-14 at 1.50.54 PM.png" "Screen Shot 2018-09-03 at 8.13.29 PM.png" "Screen Shot 2018-09-05 at 5.34.15 PM.png" "f525f62a-567c-4d6f-a98d-0d7e77741fdd.png" "Conserve Servicing Fee Calculation/" "lyonsDen TeacherTraining Financing.xlsx" "Datafile 2018-07-31 (CNS-828).xlsx" "Screen Shot 2018-09-06 at 11.44.34 AM.png" "DataParser Requirements Document.docx" "graduation.rates.by.fico.and.cosigner.pdf" "Screen Shot 2018-08-30 at 11.06.52 AM.png" "Screen Shot 2018-10-12 at 8.43.52 AM.png" "Screen Shot 2018-08-29 at 8.53.41 PM.png" "Screen Shot 2018-07-19 at 9.17.33 AM.png" "BartsAutoService.pdf" "Screen Shot 2018-09-12 at 1.35.49 PM.png" "Screen Shot 2018-10-11 at 3.30.38 PM.png" "Prosper Investor Deck August.pdf" "BE_VGH_LOI_09102018.pdf" "SFIG_MPL_Best_Practices_Disclosure__Reporting_First_Edition_Green_Paper_....pdf" "Datafile 2018-07-31 (CNS-828)TMP.xlsx" ".localized" "Screen Shot 2018-10-03 at 11.38.47 AM.png" "Screen Shot 2018-10-03 at 11.38.28 AM.png" "HouseholdDelinquencyFrom2003_WellsFargo.png" "Screen Shot 2018-08-22 at 3.51.29 PM.png" ".DS_Store" "Screen Shot 2018-09-06 at 11.42.58 AM.png" "Screen Shot 2018-08-30 at 1.25.02 PM.png" "Screen Shot 2018-08-31 at 1.59.49 PM.png" "Screen Shot 2018-08-22 at 3.46.16 PM.png" "Screen Shot 2018-09-01 at 8.47.29 PM.png" "BE_VGH_LOI_09102018.docx" "transunion creditVision.pdf" "Screen Shot 2018-10-09 at 5.54.02 PM.png" "Thumbs.db" "Screen Shot 2018-10-11 at 3.24.53 PM.png" "Screen Shot 2018-08-14 at 2.10.55 PM.png" "../" "./")
 
